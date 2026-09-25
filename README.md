@@ -3,7 +3,7 @@
 A static personal portfolio and file archive. Built with plain **HTML, CSS, and JavaScript**.
 No frameworks, no build step, no backend, no database, **no cost**.
 
-**Live site:** https://clyde098.github.io/
+**Live site:** https://clyde098.github.io/portfolio/portfolio/
 **Repository:** https://github.com/Clyde098/portfolio
 
 ---
