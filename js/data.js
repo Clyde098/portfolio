@@ -175,7 +175,7 @@ const SITE_DATA = {
       path: "assets/dummy-files-1.pdf",
       type: "PDF",
       size: "184 KB",
-      date: "2026-09-20",
+      date: "2026-09-01",
       description: "",
       category: "documents"
     },
@@ -184,7 +184,7 @@ const SITE_DATA = {
       path: "files/projects/dummy-files-2.zip",
       type: "ZIP",
       size: "1.8 MB",
-      date: "2026-09-15",
+      date: "2026-09-04",
       description: "",
       category: "projects"
     },
@@ -193,7 +193,7 @@ const SITE_DATA = {
       path: "files/projects/dummy-files-3.zip",
       type: "ZIP",
       size: "1.2 MB",
-      date: "2026-08-09",
+      date: "2026-09-09",
       description: "",
       category: "projects"
     },
@@ -202,7 +202,7 @@ const SITE_DATA = {
       path: "files/projects/dummy-files-4.zip",
       type: "ZIP",
       size: "980 KB",
-      date: "2026-06-18",
+      date: "2026-09-18",
       description: "",
       category: "projects"
     },
@@ -211,7 +211,7 @@ const SITE_DATA = {
       path: "files/projects/dummy-files-5.zip",
       type: "ZIP",
       size: "1.1 MB",
-      date: "2026-03-22",
+      date: "2026-09-22",
       description: "",
       category: "projects"
     },
@@ -220,7 +220,7 @@ const SITE_DATA = {
       path: "files/certificates/dummy-files-6.pdf",
       type: "PDF",
       size: "420 KB",
-      date: "2026-05-04",
+      date: "2026-09-24",
       description: "",
       category: "certificates"
     },
@@ -229,7 +229,7 @@ const SITE_DATA = {
       path: "files/certificates/dummy-files-7.pdf",
       type: "PDF",
       size: "388 KB",
-      date: "2026-02-10",
+      date: "2026-09-29",
       description: "",
       category: "certificates"
     },
@@ -238,7 +238,7 @@ const SITE_DATA = {
       path: "files/docs/dummy-files-8.pdf",
       type: "PDF",
       size: "2.1 MB",
-      date: "2026-09-20",
+      date: "2026-09-30",
       description: "",
       category: "documents"
     }
