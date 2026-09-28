@@ -33,53 +33,45 @@ const SITE_DATA = {
   ------------------------------------------------------------------ */
   projects: [
     {
-      id: "grade-tracker",
-      title: "Student Grade Tracker",
-      summary: "A grade calculator that saves your subjects and exports a CSV report.",
+      id: "dummy-project-1",
+      title: "Dummy Project 1",
+      summary: "",
       description:
-        "A single-page tool for tracking subject grades and computing a weighted general average. " +
-        "Everything persists in localStorage, so grades survive a page refresh with no account or server. " +
-        "This was my first project where I had to think carefully about data shape before writing UI code.",
+        "",
       highlights: [
-        "Designed the grade data model and weighted-average formula",
-        "Built add / edit / delete flows with full keyboard support",
-        "Implemented CSV export using the Blob API"
+        ""
       ],
-      tech: ["HTML", "CSS", "JavaScript", "localStorage"],
-      tags: ["web", "javascript", "school"],
-      image: "assets/projects/grade-tracker-1.jpg",
-      gallery: ["assets/projects/grade-tracker-1.jpg", "assets/projects/grade-tracker-2.jpg"],
+      tech: [""],
+      tags: [""],
+      image: "assets/projects/dummy-project-1.jpg",
+      gallery: ["assets/projects/dummy-project-1.jpg"],
       repo: "https://github.com/Clyde098",
       demo: "",
       date: "2026-09-15",
       featured: true,
       files: [
-        { name: "Source code (ZIP)", path: "files/projects/grade-tracker.zip", size: "1.8 MB" }
+        { name: "Source code (ZIP)", path: "files/projects/dummy-project-1.zip", size: "1.8 MB" }
       ]
     },
     {
-      id: "weather-dashboard",
-      title: "Weather Dashboard",
-      summary: "Live weather for any city using the Fetch API and a public weather API.",
+      id: "dummy-project-2",
+      title: "dummy-project-2",
+      summary: "",
       description:
-        "Type a city, get current conditions and a five-day outlook. I used this project to properly learn " +
-        "async/await, loading and error states, and how to render API responses without a framework. " +
-        "It also taught me to cache the last searched city so the page isn't empty on reload.",
+        "",
       highlights: [
-        "Handled loading, empty, and error states explicitly",
-        "Debounced the search input to avoid hammering the API",
-        "Cached the last city in localStorage"
+        ""
       ],
-      tech: ["HTML", "CSS", "JavaScript", "Fetch API", "REST"],
-      tags: ["web", "javascript", "api"],
-      image: "assets/projects/weather-1.jpg",
-      gallery: ["assets/projects/weather-1.jpg"],
+      tech: [""],
+      tags: [""],
+      image: "assets/projects/dummy-project-2.jpg",
+      gallery: ["assets/projects/dummy-project-2.jpg"],
       repo: "https://github.com/Clyde098",
       demo: "",
       date: "2026-08-09",
       featured: false,
       files: [
-        { name: "Source code (ZIP)", path: "files/projects/weather-dashboard.zip", size: "1.2 MB" }
+        { name: "Source code (ZIP)", path: "files/projects/dummy-project-2.zip", size: "1.2 MB" }
       ]
     },
     {
