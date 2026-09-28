@@ -564,6 +564,44 @@
     }
   }
 
+    /* ======================================================================
+     EMAIL LINK → CONTACT SECTION
+     Clicking the "Email" link in the hero scrolls to #contact instead of
+     opening the mail client. The mailto: href stays in the HTML, so with
+     JavaScript disabled the link still behaves normally.
+     ====================================================================== */
+
+  function wireEmailToContact() {
+    var links = $$('.social-list a[href^="mailto:"]');
+    if (!links.length) return;
+
+    links.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var target = document.getElementById('contact');
+        if (!target) return;                 // no contact section → let mailto run
+
+        e.preventDefault();
+
+        var reduce = window.matchMedia &&
+                     window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        target.scrollIntoView({
+          behavior: reduce ? 'auto' : 'smooth',
+          block: 'start'
+        });
+
+        // Keep the URL in sync without triggering a second jump.
+        if (window.history && history.replaceState) {
+          history.replaceState(null, '', '#contact');
+        }
+
+        // Move focus so keyboard / screen-reader users land inside the section.
+        if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+        target.focus({ preventScroll: true });
+      });
+    });
+  }
+
   /* ======================================================================
      BOOT
      ====================================================================== */
@@ -579,6 +617,7 @@
     wireScroll();
     wireReveal();
     wireMisc();
+    wireEmailToContact();
   }
 
   if (document.readyState === 'loading') {
