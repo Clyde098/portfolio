@@ -55,7 +55,7 @@ const SITE_DATA = {
     },
     {
       id: "dummy-project-2",
-      title: "dummy-project-2",
+      title: "Dummy Project 2",
       summary: "",
       description:
         "",
@@ -75,47 +75,39 @@ const SITE_DATA = {
       ]
     },
     {
-      id: "quiz-app",
-      title: "Interactive Quiz App",
-      summary: "Timed multiple-choice quiz with scoring, review screen, and answer explanations.",
+      id: "dummy-project-3",
+      title: "Dummy Project 3",
+      summary: "",
       description:
-        "A quiz engine that loads questions from a plain JavaScript array, tracks the score, shows a countdown " +
-        "timer, and ends with a review screen explaining every answer. Built to practise state management " +
-        "in vanilla JS without reaching for a library.",
+        "",
       highlights: [
-        "Modeled quiz state as a single object instead of scattered variables",
-        "Added a review screen with per-question explanations",
-        "Wrote the question bank as data so new quizzes need no code changes"
+        ""
       ],
-      tech: ["HTML", "CSS", "JavaScript"],
-      tags: ["web", "javascript", "school"],
-      image: "assets/projects/quiz-1.jpg",
-      gallery: ["assets/projects/quiz-1.jpg", "assets/projects/quiz-2.jpg"],
+      tech: [""],
+      tags: [""],
+      image: "assets/projects/dummy-project-3.jpg",
+      gallery: ["assets/projects/dummy-project-3.jpg"],
       repo: "https://github.com/Clyde098",
       demo: "",
       date: "2026-06-18",
       featured: false,
       files: [
-        { name: "Source code (ZIP)", path: "files/projects/quiz-app.zip", size: "980 KB" }
+        { name: "Source code (ZIP)", path: "files/projects/dummy-project-3.zip", size: "980 KB" }
       ]
     },
     {
-      id: "restaurant-landing",
-      title: "Restaurant Landing Page",
-      summary: "A fully responsive marketing page built with mobile-first CSS.",
+      id: "dummy-project-4",
+      title: "Dummy Project 4",
+      summary: "",
       description:
-        "A single-page site for a fictional restaurant: hero, menu grid, gallery, hours, and a reservation " +
-        "call-to-action. The goal was layout fluency — Flexbox, CSS Grid, and fluid type that holds up " +
-        "from a 320px phone to a 1920px monitor.",
+        "",
       highlights: [
-        "Mobile-first CSS with three breakpoints",
-        "Fluid typography using clamp()",
-        "Achieved a Lighthouse Accessibility score of 100"
+        ""
       ],
-      tech: ["HTML", "CSS"],
-      tags: ["web", "css", "design"],
-      image: "assets/projects/restaurant-1.jpg",
-      gallery: ["assets/projects/restaurant-1.jpg"],
+      tech: [""],
+      tags: [""],
+      image: "assets/projects/dummy-project-4.jpg",
+      gallery: ["assets/projects/dummy-project-4.jpg"],
       repo: "https://github.com/Clyde098",
       demo: "",
       date: "2026-05-04",
@@ -123,53 +115,45 @@ const SITE_DATA = {
       files: []
     },
     {
-      id: "task-manager",
-      title: "Task Manager",
-      summary: "A to-do app with priorities, due dates, filtering, and drag-free reordering.",
+      id: "dummy-project-5",
+      title: "Dummy Project 5",
+      summary: "",
       description:
-        "A task list that supports priorities, due dates, and filtering by status. I deliberately avoided " +
-        "dragging libraries and instead implemented move-up / move-down buttons, which turned out to be " +
-        "far more accessible and much less code.",
+        "",
       highlights: [
-        "Full CRUD with localStorage persistence",
-        "Accessible reordering via buttons instead of drag-and-drop",
-        "Filter views: All / Active / Completed / Overdue"
+        ""
       ],
-      tech: ["HTML", "CSS", "JavaScript", "localStorage"],
-      tags: ["web", "javascript"],
-      image: "assets/projects/task-manager-1.jpg",
-      gallery: ["assets/projects/task-manager-1.jpg"],
+      tech: [""],
+      tags: [""],
+      image: "assets/projects/dummy-project-5.jpg",
+      gallery: ["assets/projects/dummy-project-5.jpg"],
       repo: "https://github.com/Clyde098",
       demo: "",
       date: "2026-03-22",
       featured: false,
       files: [
-        { name: "Source code (ZIP)", path: "files/projects/task-manager.zip", size: "1.1 MB" }
+        { name: "Source code (ZIP)", path: "files/projects/dummy-project-5.zip", size: "1.1 MB" }
       ]
     },
     {
-      id: "attendance-prototype",
-      title: "Attendance System (Prototype)",
-      summary: "A front-end-only prototype of a class attendance recorder.",
+      id: "dummy-project-6",
+      title: "Dummy Project 6",
+      summary: "",
       description:
-        "A proof-of-concept for recording class attendance: pick a section, mark students present or absent, " +
-        "and export the day's record as CSV. Deliberately built with no backend so it can run from a USB stick " +
-        "on any classroom computer.",
+        "",
       highlights: [
-        "Designed the CSV export format to open cleanly in Excel",
-        "Made the whole flow keyboard-navigable for speed",
-        "Kept everything in one HTML file for offline classroom use"
+        ""
       ],
-      tech: ["HTML", "CSS", "JavaScript"],
-      tags: ["web", "javascript", "school"],
-      image: "assets/projects/attendance-1.jpg",
-      gallery: ["assets/projects/attendance-1.jpg"],
+      tech: [""],
+      tags: [""],
+      image: "assets/projects/dummy-project-6.jpg",
+      gallery: ["assets/projects/dummy-project-6.jpg"],
       repo: "https://github.com/Clyde098",
       demo: "",
       date: "2026-02-10",
       featured: false,
       files: [
-        { name: "Source code (ZIP)", path: "files/projects/attendance-prototype.zip", size: "760 KB" }
+        { name: "Source code (ZIP)", path: "files/projects/dummy-project-6.zip", size: "760 KB" }
       ]
     }
   ],
@@ -187,75 +171,75 @@ const SITE_DATA = {
   ------------------------------------------------------------------ */
   files: [
     {
-      name: "Résumé — Mark Immanuel Parro",
-      path: "assets/resume.pdf",
+      name: "Dummy Files 1",
+      path: "assets/dummy-files-1.pdf",
       type: "PDF",
       size: "184 KB",
       date: "2026-09-20",
-      description: "One-page résumé, updated for midterm submission.",
+      description: "",
       category: "documents"
     },
     {
-      name: "Student Grade Tracker — Source Code",
-      path: "files/projects/grade-tracker.zip",
+      name: "Dummy Files 2",
+      path: "files/projects/dummy-files-2.zip",
       type: "ZIP",
       size: "1.8 MB",
       date: "2026-09-15",
-      description: "Full source including HTML, CSS, JS, and README.",
+      description: "",
       category: "projects"
     },
     {
-      name: "Weather Dashboard — Source Code",
-      path: "files/projects/weather-dashboard.zip",
+      name: "Dummy Files 3",
+      path: "files/projects/dummy-files-3.zip",
       type: "ZIP",
       size: "1.2 MB",
       date: "2026-08-09",
-      description: "Source code and setup notes for the weather app.",
+      description: "",
       category: "projects"
     },
     {
-      name: "Quiz App — Source Code",
-      path: "files/projects/quiz-app.zip",
+      name: "Dummy Files 4",
+      path: "files/projects/dummy-files-4.zip",
       type: "ZIP",
       size: "980 KB",
       date: "2026-06-18",
-      description: "Complete quiz application with the question bank.",
+      description: "",
       category: "projects"
     },
     {
-      name: "Task Manager — Source Code",
-      path: "files/projects/task-manager.zip",
+      name: "Dummy Files 5",
+      path: "files/projects/dummy-files-5.zip",
       type: "ZIP",
       size: "1.1 MB",
       date: "2026-03-22",
-      description: "To-do app source code with localStorage persistence.",
+      description: "",
       category: "projects"
     },
     {
-      name: "Certificate — HTML & CSS Fundamentals",
-      path: "files/certificates/html-css-fundamentals.pdf",
+      name: "Dummy Files 6",
+      path: "files/certificates/dummy-files-6.pdf",
       type: "PDF",
       size: "420 KB",
       date: "2026-05-04",
-      description: "Course completion certificate.",
+      description: "",
       category: "certificates"
     },
     {
-      name: "Certificate — JavaScript Basics",
-      path: "files/certificates/javascript-basics.pdf",
+      name: "Dummy Files 7",
+      path: "files/certificates/dummy-files-7.pdf",
       type: "PDF",
       size: "388 KB",
       date: "2026-02-10",
-      description: "Course completion certificate.",
+      description: "",
       category: "certificates"
     },
     {
-      name: "Midterm Project Documentation",
-      path: "files/docs/midterm-documentation.pdf",
+      name: "Dummy Files 8",
+      path: "files/docs/dummy-files-8.pdf",
       type: "PDF",
       size: "2.1 MB",
       date: "2026-09-20",
-      description: "Design decisions, wireframes, testing notes, and references.",
+      description: "",
       category: "documents"
     }
   ]
