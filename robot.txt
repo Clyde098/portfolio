@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://clyde098.github.io/portfolio/portfolio/sitemap.xml
